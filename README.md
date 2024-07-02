@@ -1,3 +1,15 @@
+# PESecurity-modified
+
+## 参考 `demo.ps1`
+
+```bash
+Import-Module .\Get-PESecurity.psm1
+Get-PESecurity -file C:\Windows\System32\kernel32.dll
+```
+
+![image](https://github.com/zxffffffff/PESecurity-modified/blob/master/QQ截图20240702.jpg)
+
+
 PESecurity
 =========
 
